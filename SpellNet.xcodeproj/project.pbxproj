@@ -15,6 +15,24 @@
 		6552B27F21173A3F00D295F2 /* SpellNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6552B27E21173A3F00D295F2 /* SpellNetTests.swift */; };
 		6552B28C21173DF700D295F2 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6552B28A21173DF700D295F2 /* Alamofire.framework */; };
 		6552B28D21173DF700D295F2 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6552B28B21173DF700D295F2 /* AlamofireImage.framework */; };
+		6552B2AD2117409900D295F2 /* DeckListAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6552B2A62117409900D295F2 /* DeckListAPIDataManager.swift */; };
+		6552B2AE2117409900D295F2 /* DeckListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6552B2A72117409900D295F2 /* DeckListPresenter.swift */; };
+		6552B2AF2117409900D295F2 /* DeckListLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6552B2A82117409900D295F2 /* DeckListLocalDataManager.swift */; };
+		6552B2B02117409900D295F2 /* DeckListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6552B2A92117409900D295F2 /* DeckListRouter.swift */; };
+		6552B2B12117409900D295F2 /* DeckListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6552B2AA2117409900D295F2 /* DeckListProtocols.swift */; };
+		6552B2B22117409900D295F2 /* DeckListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6552B2AB2117409900D295F2 /* DeckListInteractor.swift */; };
+		6552B2B32117409900D295F2 /* DeckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6552B2AC2117409900D295F2 /* DeckListView.swift */; };
+		6552B2B92117482E00D295F2 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6552B2B82117482E00D295F2 /* Storyboardable.swift */; };
+		6552B2BB2117492100D295F2 /* DeckList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6552B2BA2117492000D295F2 /* DeckList.storyboard */; };
+		6552B2BE21175DDC00D295F2 /* Rswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6552B2BD21175DDC00D295F2 /* Rswift.framework */; };
+		659F8DD42117E9D7004D217A /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F8DD32117E9D6004D217A /* R.generated.swift */; };
+		659F8DD62117ECC8004D217A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 659F8DD52117ECC8004D217A /* Localizable.strings */; };
+		659F8DD821192C9E004D217A /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659F8DD721192C9E004D217A /* NVActivityIndicatorView.framework */; };
+		659F8DDC21192FD7004D217A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F8DDB21192FD7004D217A /* Card.swift */; };
+		659F8DDF2119306C004D217A /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F8DDE2119306C004D217A /* Deck.swift */; };
+		659F8DE221193457004D217A /* DeckDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F8DE121193457004D217A /* DeckDataBase.swift */; };
+		659F8DEA2119410B004D217A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F8DE92119410B004D217A /* Response.swift */; };
+		659F8DED211948ED004D217A /* DeckListErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F8DEC211948ED004D217A /* DeckListErrors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +58,24 @@
 		6552B28021173A3F00D295F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6552B28A21173DF700D295F2 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		6552B28B21173DF700D295F2 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		6552B2A62117409900D295F2 /* DeckListAPIDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckListAPIDataManager.swift; sourceTree = "<group>"; };
+		6552B2A72117409900D295F2 /* DeckListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckListPresenter.swift; sourceTree = "<group>"; };
+		6552B2A82117409900D295F2 /* DeckListLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckListLocalDataManager.swift; sourceTree = "<group>"; };
+		6552B2A92117409900D295F2 /* DeckListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckListRouter.swift; sourceTree = "<group>"; };
+		6552B2AA2117409900D295F2 /* DeckListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckListProtocols.swift; sourceTree = "<group>"; };
+		6552B2AB2117409900D295F2 /* DeckListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckListInteractor.swift; sourceTree = "<group>"; };
+		6552B2AC2117409900D295F2 /* DeckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckListView.swift; sourceTree = "<group>"; };
+		6552B2B82117482E00D295F2 /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		6552B2BA2117492000D295F2 /* DeckList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DeckList.storyboard; sourceTree = "<group>"; };
+		6552B2BD21175DDC00D295F2 /* Rswift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Rswift.framework; path = Carthage/Build/iOS/Rswift.framework; sourceTree = "<group>"; };
+		659F8DD32117E9D6004D217A /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		659F8DD52117ECC8004D217A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		659F8DD721192C9E004D217A /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NVActivityIndicatorView.framework; path = Carthage/Build/iOS/NVActivityIndicatorView.framework; sourceTree = "<group>"; };
+		659F8DDB21192FD7004D217A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		659F8DDE2119306C004D217A /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		659F8DE121193457004D217A /* DeckDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckDataBase.swift; sourceTree = "<group>"; };
+		659F8DE92119410B004D217A /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		659F8DEC211948ED004D217A /* DeckListErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckListErrors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +84,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6552B28C21173DF700D295F2 /* Alamofire.framework in Frameworks */,
+				6552B2BE21175DDC00D295F2 /* Rswift.framework in Frameworks */,
 				6552B28D21173DF700D295F2 /* AlamofireImage.framework in Frameworks */,
+				659F8DD821192C9E004D217A /* NVActivityIndicatorView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,8 +122,8 @@
 		6552B26821173A3D00D295F2 /* SpellNet */ = {
 			isa = PBXGroup;
 			children = (
+				6552B2A32117404900D295F2 /* Source */,
 				6552B29021173E6600D295F2 /* Resources */,
-				6552B28F21173E5F00D295F2 /* Application */,
 			);
 			path = SpellNet;
 			sourceTree = "<group>";
@@ -102,6 +140,8 @@
 		6552B28921173DF600D295F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				659F8DD721192C9E004D217A /* NVActivityIndicatorView.framework */,
+				6552B2BD21175DDC00D295F2 /* Rswift.framework */,
 				6552B28A21173DF700D295F2 /* Alamofire.framework */,
 				6552B28B21173DF700D295F2 /* AlamofireImage.framework */,
 			);
@@ -111,6 +151,8 @@
 		6552B28F21173E5F00D295F2 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				6552B2A121173FC500D295F2 /* Deck */,
+				6552B2A021173FBC00D295F2 /* DeckList */,
 				6552B29121173E9900D295F2 /* Main */,
 				6552B26921173A3D00D295F2 /* AppDelegate.swift */,
 			);
@@ -120,9 +162,11 @@
 		6552B29021173E6600D295F2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				659F8DD32117E9D6004D217A /* R.generated.swift */,
 				6552B27521173A3F00D295F2 /* Info.plist */,
 				6552B27221173A3F00D295F2 /* LaunchScreen.storyboard */,
 				6552B27021173A3F00D295F2 /* Assets.xcassets */,
+				659F8DD52117ECC8004D217A /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -136,6 +180,106 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		6552B2A021173FBC00D295F2 /* DeckList */ = {
+			isa = PBXGroup;
+			children = (
+				659F8DEB211948DA004D217A /* Errors */,
+				6552B2BA2117492000D295F2 /* DeckList.storyboard */,
+				6552B2A62117409900D295F2 /* DeckListAPIDataManager.swift */,
+				6552B2A72117409900D295F2 /* DeckListPresenter.swift */,
+				6552B2A82117409900D295F2 /* DeckListLocalDataManager.swift */,
+				6552B2A92117409900D295F2 /* DeckListRouter.swift */,
+				6552B2AA2117409900D295F2 /* DeckListProtocols.swift */,
+				6552B2AB2117409900D295F2 /* DeckListInteractor.swift */,
+				6552B2AC2117409900D295F2 /* DeckListView.swift */,
+			);
+			path = DeckList;
+			sourceTree = "<group>";
+		};
+		6552B2A121173FC500D295F2 /* Deck */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Deck;
+			sourceTree = "<group>";
+		};
+		6552B2A221173FD700D295F2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6552B2BC21174D9400D295F2 /* Protocols */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6552B2A32117404900D295F2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				659F8DD921192FBC004D217A /* Network */,
+				6552B2A42117405900D295F2 /* Managers */,
+				6552B2A221173FD700D295F2 /* Utils */,
+				6552B28F21173E5F00D295F2 /* Application */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		6552B2A42117405900D295F2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		6552B2BC21174D9400D295F2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6552B2B82117482E00D295F2 /* Storyboardable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		659F8DD921192FBC004D217A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				659F8DDA21192FC4004D217A /* Models */,
+				659F8DE92119410B004D217A /* Response.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		659F8DDA21192FC4004D217A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				659F8DE02119342C004D217A /* Enums */,
+				659F8DDD2119305D004D217A /* ViewModels */,
+				659F8DDB21192FD7004D217A /* Card.swift */,
+				659F8DDE2119306C004D217A /* Deck.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		659F8DDD2119305D004D217A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		659F8DE02119342C004D217A /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				659F8DE121193457004D217A /* DeckDataBase.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		659F8DEB211948DA004D217A /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				659F8DEC211948ED004D217A /* DeckListErrors.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +287,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6552B28321173A3F00D295F2 /* Build configuration list for PBXNativeTarget "SpellNet" */;
 			buildPhases = (
+				6552B2BF2117624B00D295F2 /* ShellScript */,
 				6552B26221173A3D00D295F2 /* Sources */,
 				6552B26321173A3D00D295F2 /* Frameworks */,
 				6552B26421173A3D00D295F2 /* Resources */,
@@ -221,6 +366,8 @@
 				6552B27421173A3F00D295F2 /* LaunchScreen.storyboard in Resources */,
 				6552B27121173A3F00D295F2 /* Assets.xcassets in Resources */,
 				6552B26F21173A3D00D295F2 /* Main.storyboard in Resources */,
+				659F8DD62117ECC8004D217A /* Localizable.strings in Resources */,
+				6552B2BB2117492100D295F2 /* DeckList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,12 +389,27 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Rswift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/NVActivityIndicatorView.framework",
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		6552B2BF2117624B00D295F2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/External/rswift\" generate \"$SRCROOT/SpellNet/Resources\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -256,8 +418,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6552B2AD2117409900D295F2 /* DeckListAPIDataManager.swift in Sources */,
+				6552B2B22117409900D295F2 /* DeckListInteractor.swift in Sources */,
+				6552B2AE2117409900D295F2 /* DeckListPresenter.swift in Sources */,
+				6552B2B32117409900D295F2 /* DeckListView.swift in Sources */,
+				659F8DEA2119410B004D217A /* Response.swift in Sources */,
+				6552B2AF2117409900D295F2 /* DeckListLocalDataManager.swift in Sources */,
 				6552B26C21173A3D00D295F2 /* ViewController.swift in Sources */,
 				6552B26A21173A3D00D295F2 /* AppDelegate.swift in Sources */,
+				659F8DDC21192FD7004D217A /* Card.swift in Sources */,
+				6552B2B02117409900D295F2 /* DeckListRouter.swift in Sources */,
+				659F8DDF2119306C004D217A /* Deck.swift in Sources */,
+				6552B2B92117482E00D295F2 /* Storyboardable.swift in Sources */,
+				659F8DE221193457004D217A /* DeckDataBase.swift in Sources */,
+				659F8DD42117E9D7004D217A /* R.generated.swift in Sources */,
+				6552B2B12117409900D295F2 /* DeckListProtocols.swift in Sources */,
+				659F8DED211948ED004D217A /* DeckListErrors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -404,7 +580,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -423,6 +599,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = SpellNet/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,6 +621,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = SpellNet/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

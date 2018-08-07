@@ -1,2 +1,4 @@
-github "Alamofire/Alamofire" ~> 4.5.0
-github "Alamofire/AlamofireImage" ~> 3.2
+github "Alamofire/Alamofire" ~> 4.7
+github "Alamofire/AlamofireImage" ~> 3.3
+github "mac-cain13/R.swift.Library"
+github "ninjaprox/NVActivityIndicatorView"

@@ -1,0 +1,10 @@
+//Comom Strings
+"cancel" = "Cancel";
+"continue" = "Continue";
+
+
+
+//Deck List
+"deck_list_alert_title" = "New Deck List";
+"deck_list_alert_message" = "We support deck lists urls from: Tappedout, MTGGoldfish and LigaMagic. Just paste the Url from one of this sites to download it";
+"deck_list_alert_textfield_placeholder" = "MTG URL";
